@@ -1,0 +1,70 @@
+   
+     
+         body {
+             font-family: Arial, sans-serif;
+             text-align:left;
+             margin: 50px;
+         }
+ 
+         .card{
+             display: flex;
+             border-radius: 2cm;
+             width: 200px;
+             height: 200px;
+             object-fit: cover;
+             align-items: lef;
+             justify-content: space-between;
+         }
+         .icon-container {
+   display: flex;
+   align-items: center;
+ }
+ 
+ .icon-container i {
+   margin-right: 5px;
+   }
+ 
+   ul{
+     list-style: none;
+     margin: 0;
+     padding: 0;
+   }
+ 
+   zyul li{
+     text-decoration: none;
+   }
+.middlenav{
+  justify-content: space-between;
+  display: flex;
+  width: 40%;
+}
+.mainnav{
+ justify-content: space-between;
+}
+.rightnav{
+  justify-content: space-between;
+  display: flex;
+  width: 10%;
+}
+.photocards{
+  margin-left: 150px;
+  margin-top: 10px;
+}
+.fr{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cards{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.card-group{
+  margin-left: 4px;
+  padding: 5px;
+}
+nav h5{
+  margin-top: 20px;
+}
